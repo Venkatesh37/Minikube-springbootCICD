@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: springboot-container
-        image: venkatesh37/springboot-37:latest
+        image: venkatesh37/springboot-37
         imagePullPolicy: Always
         ports:
         - containerPort: 8081       
